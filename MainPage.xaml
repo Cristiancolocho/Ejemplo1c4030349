@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Ejemplo1c4030349.MainPage">
+
+    <StackLayout Margin="20,35,20,20">
+
+        <Label FontSize="Medium"
+                HorizontalOptions="Center">
+            <Label.FormattedText>
+                <FormattedString>
+                    <Span TextDecorations="Strikethrough"
+                            FontAttributes="Bold"
+                            TextColor="Green">Programación</Span>
+                    <Span FontAttributes="Italic"
+                            TextColor="Blue">Es un paradigma de la programación</Span>
+                    <Span TextColor="Gray"
+                            TextDecorations="Strikethrough">Que no ayuda a obtener mejor resultados</Span>
+                </FormattedString>
+            </Label.FormattedText>
+        </Label>
+    </StackLayout>
+</ContentPage>
